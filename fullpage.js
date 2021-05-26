@@ -4242,6 +4242,11 @@ if(window.jQuery && window.fullpage){
 new fullpage('#fullpage', {
     autoScrolling:true,
     scrollHorizontally: false,
-    scrollBar:true
+    scrollBar:false,
+    anchors: ['Home', 'Expectations', 'Subscription'],
+    menu: '#fpmenu',
+    navigation: true,
+    navigationPosition: 'right',
+    navigationTooltips: ['Home', 'Expectations', 'Subscription']
   });
   fullpage_api.setAllowScrolling(true);

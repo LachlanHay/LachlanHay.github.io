@@ -170,7 +170,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: #333;
+    background: rgb(255, 0, 0);
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
@@ -188,8 +188,8 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
-    font-size: 14px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;
     max-width: 220px;
